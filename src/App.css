@@ -3,7 +3,7 @@
 body{
     background-image: url("./components/imgs/bg-desktop-light.jpg");
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-position: top;
 
     margin: 0;
     padding: 0;
@@ -61,7 +61,8 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 .dark-mode {
-    background: #0b0a14;
+    background-image: url("components/imgs/bg-desktop-dark.jpg");
+    background-color: black;
 }
 .dark-mode h1 {
     color: #f7f0e9;
